@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    background-color: black;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    top: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    font-weight: 600;   
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    margin-right: 1rem;
+    
+}
+
+.left{
+    padding-right: 50rem;
+}
+
+button{
+    border-radius: 50%;
+    padding: 3px;
+}
+
+.middle{
+ display: flex;
+ flex-direction: column;
+ background-image:url('./image/main.webp');
+ background-position: center;
+ background-size: cover;
+ height: 100vh;
+ align-items: center;
+}
+
+h2,p{
+    padding-top:1rem;
+}
+
+.up{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    background-color: bisque;
+} 
+
+h1{
+    margin-top: 2rem;
+}
+.btn1{
+ background-color:black;
+ color: white;
+ border-radius: 1rem;
+ width: 15rem;
+    padding: 1rem 4rem;
+    margin: 1rem;
+    border: none;
+}
+
+.btn2{
+    background-color:white;
+    color: black;
+    border-radius: 1rem;
+    justify-content: center;
+    width: 15rem;
+    padding: 1rem 4rem;
+    margin: 1rem;
+    border: none;
+   }
+
+   .btn1:hover{
+    background-color:whitesmoke;
+    color: black;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+.btn2:hover{
+    background-color:black;
+    color: white;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+.group{
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.group img{
+    border-radius: 2rem;
+    padding: 1rem;
+}
+
+.lw{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 5rem 10rem;
+   
+  }
+.lef{
+    font-size: 20px;
+    border-radius: 2rem;
+    padding-right: 2rem;
+}
+.lef a{
+    color:red;
+    font-weight: bold;
+}
+
+.rgh img{
+    border-radius: 2rem;
+}
